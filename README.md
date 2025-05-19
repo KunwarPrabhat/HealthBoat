@@ -1,16 +1,59 @@
-
 # HealthBoat
-ChatGPT said: HealthBoat is a smart healthcare web app that offers early diagnosis, mental health support, and an AI-powered chatbot. Built with React, Tailwind CSS, and DeepSeek API, it provides a fast, intuitive, and interactive user experience. Ideal for quick medical guidance and hackathon demos.
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+HealthBoat is a user-friendly healthcare web application designed to provide early diagnosis assistance and mental health support. It allows users to input symptoms, receive possible diagnoses, and access relevant health resources — all in a clean, intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Symptom Input:** Users can select from a list of symptoms to describe their condition.
+- **Early Diagnosis:** Based on the input, the app provides possible diagnoses with explanations.
+- **Mental Health Support:** Includes a chatbot and mental health resources tailored by age and gender.
+- **Responsive Design:** Works smoothly on desktop and mobile devices.
+- **Custom UI Elements:** Includes a custom cursor and polished, accessible form components.
+
+---
+
+## Tech Stack
+
+- React.js (frontend)
+- Vite (build tool)
+- Tailwind CSS (styling)
+- Optional: Backend API for advanced diagnosis (if applicable)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 16 or later recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/your-username/healthboat.git
+   cd healthboat
+
+2. Install Dependencies
+    ```bash
+    npm install
+    # or
+    yarn install
+
+3. Run the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev    
+
+
+![Screenshot 1](public/ss1.png)
+![Screenshot 2](public/ss2.png)
+![Screenshot 3](public/ss3.png)
+![Screenshot 4](public/ss4.png)
