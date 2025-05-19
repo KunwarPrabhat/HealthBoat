@@ -136,7 +136,7 @@ const ChatBot = ({ ageGroup, gender }) => {
               onClick={() => setSelectedDoctor(doc)}
               style={{ cursor: "none" }}
             >
-              <img src={`/images/${doc.img}`} alt={doc.name} />
+              <img src={`/HealthBoat/images/${doc.img}`} alt={doc.name} />
               <h4>{doc.name}</h4>
               <p>{doc.years}+ years experience</p>
             </div>

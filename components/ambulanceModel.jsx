@@ -5,7 +5,7 @@ import { useGLTF } from "@react-three/drei";
 
 const AmbulanceModel = ({ mouse, onWindowClick }) => {
   const modelRef = useRef();
-  const { scene } = useGLTF("/ambulance_mod.glb");
+  const { scene } = useGLTF("/HealthBoat/ambulance_mod.glb");
 
   useFrame(() => {
     if (modelRef.current) {

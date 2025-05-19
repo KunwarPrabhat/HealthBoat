@@ -10,7 +10,7 @@ export function Header() {
         HealthBoat
       </h1><h3>Your Trusted Guide to Better Health.</h3>
       <nav>
-        <a href="/contact.html">
+        <a href="/HealthBoat/contact.html">
           <MdContactMail style={{ verticalAlign: 'top', marginRight: '6px', fontSize: '28px' }} />
           Contact
         </a>
