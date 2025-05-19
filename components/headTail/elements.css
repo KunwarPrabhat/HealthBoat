@@ -1,0 +1,63 @@
+.header {
+  width: 95vw;
+  background-color: #413c58;
+  color: #f0f0f0;
+  padding: 15px 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header nav a {
+  color: #e0e0e0;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.header nav a:hover {
+  color: #94d2bd;
+  border-bottom: 2px solid #94d2bd;
+}
+
+.footer {
+    margin: 0;
+  width: 100vw;
+  height: 30px;
+  background-color: #413c58;
+  color: #f0f0f0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  overflow: hidden;
+}
+
+.footer p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin: 0;
+}
+nav a[href="/contact.html"] {
+  cursor: none;
+}
