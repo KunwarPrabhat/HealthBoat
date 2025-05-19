@@ -1,0 +1,35 @@
+.mental-health-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #003049;
+  text-align: center;
+  padding: 20px;
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group button {
+  width: 100px;
+  height: 100px;
+  background-color: #e39aee;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: none;
+  transition: background-color 0.3s ease;
+  padding: 0; /* Remove padding to keep circle shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.button-group button:hover {
+  background-color: #d15de3;
+}

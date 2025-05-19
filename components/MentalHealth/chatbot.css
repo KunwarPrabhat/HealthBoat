@@ -1,0 +1,137 @@
+.chatbot-container {
+    width: 30vw;
+  height: 80vh;
+  background-color: #e0ffe900;
+  margin-left: 5vw;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  color: #003049;
+  border: 2px dotted black;
+}
+.chatbot-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #003049;
+  text-align: center;
+}
+
+.chatbot-messages {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
+
+.chatbot-message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.chatbot-message.user {
+  align-self: flex-end;
+  background-color: #adb5bd;
+  text-align: right;
+}
+
+.chatbot-message.bot {
+  align-self: flex-start;
+  background-color: #ced4da;
+  text-align: left;
+}
+
+.chatbot-textarea {
+  width: 100;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: none;
+}
+
+.chatbot-button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  cursor: none;
+
+}
+
+.chatbot-button:hover {
+  background-color: #45a049;
+}
+.pixelThoughts {
+  position: fixed;
+  top: 10vh;
+  right: 5vw;
+  width: 60vw;
+  height: 80vh;
+  background-color: #eaf6f6;
+  border-radius: 12px;
+  box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 2;
+  cursor: none;
+}
+
+.pt-heading {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  cursor: none;
+
+}
+
+.pt-profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+  cursor: none;
+
+}
+
+.pt-profile {
+  width: 150px;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  cursor: none;
+
+}
+
+.pt-profile img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: none;
+
+}
+.pt-profiles img {
+  transition: transform 0.3s ease;
+}
+
+.pt-profiles img:hover {
+  transform: scale(1.1);
+
+}

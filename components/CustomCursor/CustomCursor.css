@@ -1,0 +1,26 @@
+
+body {
+    cursor: none;
+  }
+  
+  .cursor {
+    position: fixed;
+    /* background-color: transparent; */
+    pointer-events: none; 
+    z-index: 100;
+    transform: translate(-50%, -50%);
+  }
+  .cursor-icon{
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    backdrop-filter: invert(100%);
+    background-color: rgba(255, 255, 255, 0.155);
+  }
+  .cursor svg{
+    color: rgb(0, 0, 0);
+  }
+  @media (pointer: coarse) {
+    .cursor {
+      display: none; 
+    }
+  }
