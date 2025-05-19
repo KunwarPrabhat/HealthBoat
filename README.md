@@ -53,7 +53,8 @@ HealthBoat is a user-friendly healthcare web application designed to provide ear
     yarn dev    
 
 
-![Screenshot 1](public/ss1.png)
-![Screenshot 2](public/ss2.png)
-![Screenshot 3](public/ss3.png)
+
 ![Screenshot 4](public/ss4.png)
+![Screenshot 3](public/ss3.png)
+![Screenshot 2](public/ss2.png)
+![Screenshot 1](public/ss1.png)
